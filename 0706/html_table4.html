@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* css 영역 */
+   /* td{
+        border:1px solid lightskyblue
+    }
+    .클래스명    #아이디명
+    */
+    .item {
+
+        border:2px dashed gray;
+        width:200px;
+        height:50px;
+        text-align:center; 
+        vertical-align: bottom;
+    }
+    #box{
+        border-spacing:0;
+        background-color: darkolivegreen;
+
+
+    }
+    .item:hover{
+        background-color: red; /*마우스가 올라간 곳을 바꿈 */
+    }
+    </style>
+</head>
+<body>
+    <!--
+        css에서 thml태그에 모양을 주려면 어떤 태그에 적용할 것인지 선택해야 함
+        css에 선택자라고 하는데 어떤 태그를 선택할 것인지 선택자로 선택
+        선택자의 종류로는 태그이름, id(중복불가), class(중복허용), name 등이 있다-->
+    <table id="box">
+        <tr>
+            <td class="item">1</td>
+            <td class="item">2</td>
+            <td class="item">3</td>
+        </tr>
+        <tr>
+            <td class="item">4</td>
+            <td class="item">5</td>
+            <td class="item">6</td>
+        </tr>
+    </table>
+</body>
+</html>
