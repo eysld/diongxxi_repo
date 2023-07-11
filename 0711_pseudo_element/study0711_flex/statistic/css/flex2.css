@@ -1,0 +1,76 @@
+
+
+.item:nth-child(1){
+
+    background-color:bisque;
+}
+
+.item:nth-child(2){
+
+    background-color:burlywood;
+}
+
+.item:nth-child(3){
+    background-color:rgb(232, 156, 249);
+}
+
+.item:nth-child(4){
+    background-color:rgb(217, 193, 238);
+}
+
+#box1{
+    
+    width:500px;
+    height:200px;
+    display:flex;
+    border:1px solid black;
+    justify-content:space-between;
+    
+}
+
+#box1 .item{
+
+    width:50px;
+}
+
+#box2{
+    width: 500px;
+    height: 200px;
+    display:flex;
+    border: 1px solid black;
+    align-items:center;
+    justify-content: center;
+}
+
+#box2 .item{
+    width: 50px;
+    height: 50px;
+}
+
+#box3{
+    width: 500px;
+    height: 200px;
+    display:flex;
+    border: 1px solid black;
+    flex-direction:column;
+    justify-content: end;
+    align-items:center;
+}
+
+#box3 .item{
+    width:50px;
+    height: 30px;
+}
+#box3 .item:nth-child(3){
+    order:1;
+}
+#box3 .item:nth-child(1){
+    order:2;
+    /* direction:column이면 order로 순서를 정해줄 수 있다*/
+}
+
+#box{
+    width:1200px;
+    height:1800px;
+    border: 1px solid black;
+}
