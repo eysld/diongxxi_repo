@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript 사용해보기</title>
+    <meta name="author" content="Jiwon Kim">
+    <meta name="keywords" content="Javascipt, 인터프리터 언어, 프로그래밍 언어">
+    <meta name="description" content="HTML문서에 자바스크립트를 연결하여 HTML 요소의 스타일 요소를 컨트롤 할 수 있다">
+</head>
+<body>
+
+    <script>
+       // alert("Hello\n \"w\"orld");
+       // 변수, 함수 이름 짓는 규칙
+       // 1. 영어, 숫자만 사용
+       // 2. 첫글자는 영어
+       // 3. 이미 있는 이름과 겹치면 안됨
+       // 4. 내용/의도를 가늠할 수 있는 이름
+       // 5. 띄어쓰기, 특수문자 금지(_ 가능)
+
+       //var boxWidth;
+       //boxWidth="Hello world";
+       //alert(boxWidth);
+
+       //var mariage = false;
+       //if(mariage == true){
+       // alert("결혼을 축하합니다");
+       //}else{
+       // alert("잘 사세요");
+       //}
+
+    //  var score = [95, "미응시", 65, 93, null];
+    //  alert(score[1]);
+
+    // var jiho = {
+    //     age:22,
+    //     height:175,
+    //     weight:75,
+    //     salary:280,
+    //     marriage : false,
+    //     essay: "안녕하시오, 한지호라는 사람이올시다.",
+    //     score: [95, 80, 75, 65, 45]
+    // };
+    // alert("지호의 키 : " +jiho.height);
+    // alert(jiho.score[1]);
+
+    var employee = [
+        {
+            name:"김일호",
+            rank:"부장",
+            title:"팀장",
+            salary:450
+        },
+        {
+            name:"김삼순",
+            rank:"과장",
+            title:null,
+            salary:380
+        },
+        {
+            name:"임걱정",
+            rank:"대리",
+            title:null,
+            salary:320
+        }
+    ];
+   alert(employee[0].salary) 
+
+    </script>
+</body>
+</html>
